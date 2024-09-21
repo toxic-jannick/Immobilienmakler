@@ -22,23 +22,7 @@
     <link rel="stylesheet" href="assets/css/cs-skin-border.css">
 </head>
 
-<body>   
-<button onclick="handleSignInClick()">Mit Google anmelden</button>
-
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script>
-        function handleSignInClick(event) {
-            gapi.load('auth2', function() {
-                gapi.auth2.init({
-                    client_id: '289603699937-8ksqqm35u03bj6fem2mlkb12lmif587l.apps.googleusercontent.com',
-                    scope: 'profile email'
-                }).then(function() {
-                    gapi.auth2.getAuthInstance().signIn();
-                });
-            });
-        }
-    </script>
-
+<body>
     <div id="fh5co-wrapper">
         <div id="fh5co-page">
             <header id="fh5co-header-section" class="sticky-banner">
