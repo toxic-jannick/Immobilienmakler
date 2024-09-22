@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url(../../assets/fonts/icomoon-07ed1852bc6b05ce6f3570bcb848c4f3.eot?srf3rx=) format('embedded-opentype'),
+	url(../../assets/fonts/icomoon-07ed1852bc6b05ce6f3570bcb848c4f3.eot?srf3rx=) format('embedded-opentype'),
+	url(../../assets/fonts/icomoon-1021ded2893e62f069282d7623af6960.ttf?srf3rx=) format('truetype'),
+	url(../../assets/fonts/icomoon-859f331e6b6f1b555ec95418e512278b.woff?srf3rx=) format('woff'),
+	url(../../assets/fonts/icomoon-f697ba5ef81412f783e51af49c3d685a.svg?srf3rx=) format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: auto;
+}
